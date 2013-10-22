@@ -38,7 +38,7 @@ for(0 => int i; 90 > i; i++) {
     }
     
     if(count > end) {
-        Std.rand2f(0.0, 0.1) => g.gain;
+        Std.rand2f(0.0, 0.2) => g.gain;
         Std.rand2f(0.0, 0.2) => e.gain;
         Std.rand2f(0.0, 0.2) => c.gain;
         //-1 *=> modifier;
@@ -48,7 +48,7 @@ for(0 => int i; 90 > i; i++) {
             0.4 => e.gain;
         } 
         if(count > 20){
-            Std.rand2f(0.0, 0.5) => g.gain;
+            Std.rand2f(0.0, 1.0) => g.gain;
             Std.rand2f(0.0, 1.0) => e.gain;
             Std.rand2f(0.0, 1.0) => c.gain;
         }
